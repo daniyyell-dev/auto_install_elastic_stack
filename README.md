@@ -26,6 +26,12 @@ Clone this repository and run the script:
 chmod +x install_elastic_stack.sh
 ./install_elastic_stack.sh 
 ```
+
+or just copy and paste this one liner. 
+
+```bash
+sudo apt install -y git && git clone https://github.com/daniyyell-dev/auto_install_elastic_stack && cd auto_install_elastic_stack && chmod +x install_elastic_stack.sh && bash install_elastic_stack.sh
+```
 ## After Installation
 
 Once installation is complete:
