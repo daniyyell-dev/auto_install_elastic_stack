@@ -69,7 +69,13 @@ Once installation is complete:
 ```
    Copy the 6-digit code displayed.
    Paste it into Kibana when asked.
+   
+or generate a new enrollment token
 
+```bash
+/usr/share/elasticsearch/bin/elasticsearch-create-enrollment-token -s kibana
+
+```
 ## Access Points
 
 - Elasticsearch:
