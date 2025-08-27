@@ -80,3 +80,13 @@ Certificates are self-signed and generated locally.
 
 This script is for lab/demo environments and not recommended for production as-is.
 
+---
+
+## References & Credits
+
+The idea and installation logic were inspired by community work I’ve used over the years.  
+I adapted and wrote my own Bash script to fully automate the Elastic Stack setup process.  
+
+Reference: [Kali Purple Documentation](https://gitlab.com/kalilinux/kali-purple/documentation)  
+
+
