@@ -2,7 +2,10 @@
 
 Bash script to automate the full installation and configuration of the **Elastic Stack** (Elasticsearch + Kibana) with **HTTPS enabled**. The script sets up a single-node environment suitable for labs, demos, and learning security monitoring with Elastic.  
 
----
+## Preview
+
+![Elastic Stack Installation Screenshot](https://github.com/daniyyell-dev/auto_install_elastic_stack/blob/main/elastic.png)
+
 
 ## Core Features
 
