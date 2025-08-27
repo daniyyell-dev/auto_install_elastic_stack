@@ -7,6 +7,19 @@ Bash script to automate the full installation and configuration of the **Elastic
 ![Elastic Stack Installation Screenshot](https://github.com/daniyyell-dev/auto_install_elastic_stack/blob/main/elastic.png)
 
 
+## Virtual Machine Setup
+
+If you’re new to virtualization or need help setting up your lab environment,  
+please refer to the detailed guide here:  
+
+[Step-by-step Virtual Machine Setup & Recommended Settings](https://github.com/daniyyell-dev/auto_install_elastic_stack/blob/main/Step-by-step-virtual-machine.md)
+
+This guide covers:  
+- Downloading VirtualBox or VMware  
+- Installing Ubuntu, Kali, or Kali Purple  
+- Network configuration (NAT vs Bridged vs Host-only)  
+- Recommended CPU, RAM, and disk allocations  
+
 ## Core Features
 
 - **Automatic cleanup** of any old Elasticsearch/Kibana installations.  
@@ -18,8 +31,6 @@ Bash script to automate the full installation and configuration of the **Elastic
 - Enables **HTTPS for Kibana** with self-signed certs.  
 - Prints out **important setup info** (URLs, credentials, enrollment token).  
 - Supports multiple network interfaces — script detects available `en*` IPs and asks the user to choose.  
-
----
 
 ## Usage
 
@@ -59,8 +70,6 @@ Once installation is complete:
    Copy the 6-digit code displayed.
    Paste it into Kibana when asked.
 
------------------------------------------------------
-
 ## Access Points
 
 - Elasticsearch:
@@ -71,7 +80,6 @@ Once installation is complete:
 
 Certificates are self-signed and generated locally.
 
------------------------------------------------------
 
 ## Notes
 
@@ -82,8 +90,6 @@ Certificates are self-signed and generated locally.
 Certificates are self-signed and generated locally.
 
 This script is for lab/demo environments and not recommended for production as-is.
-
----
 
 ## References & Credits
 
