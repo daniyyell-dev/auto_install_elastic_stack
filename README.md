@@ -1,6 +1,6 @@
 # Elastic Stack Auto-Installer (Ubuntu/Unix)
 
-This repository provides a Bash script to automate the full installation and configuration of the **Elastic Stack** (Elasticsearch + Kibana) with **HTTPS enabled**. The script sets up a single-node environment suitable for labs, demos, and learning security monitoring with Elastic.  
+Bash script to automate the full installation and configuration of the **Elastic Stack** (Elasticsearch + Kibana) with **HTTPS enabled**. The script sets up a single-node environment suitable for labs, demos, and learning security monitoring with Elastic.  
 
 ---
 
